@@ -96,3 +96,15 @@ footer a {
 footer a:hover {
     color: salmon;
 }
+.cuadro {
+    border: 5px solid salmon;
+    padding: 20px;
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+
+.cuadro p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
