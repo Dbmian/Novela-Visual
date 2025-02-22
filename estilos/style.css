@@ -8,7 +8,6 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
-
 .video-fondo {
     position: fixed;
     top: 0;
@@ -33,7 +32,7 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: calc(100vh - 60px); /* Ajuste para asegurar que el footer esté visible */
     text-align: center;
     color: white;
 }
@@ -45,17 +44,55 @@ h1 {
 
 .boton {
     padding: 15px 30px;
-    border: 2px solid red;
-    background-color: white;
-    color: red;
+    border: 2px solid black;
+    background-color: black; /* Color de fondo negro */
+    color: white; /* Texto en blanco */
     text-transform: uppercase;
     font-size: 1.5rem;
     text-decoration: none;
     cursor: pointer;
     margin-bottom: 20px;
+    transition: background-color 0.3s, color 0.3s; /* Transiciones suaves */
 }
 
 .boton:hover {
-    background-color: red;
-    color: white;
+    background-color: salmon; /* Color de fondo salmón al pasar el cursor */
+    color: black; /* Texto negro al pasar el cursor */
+}
+
+
+footer {
+    background-color: black; /* Fondo negro */
+    text-align: center;
+    padding: 5px 0; /* Reducir el padding superior e inferior */
+    width: 100%;
+    position: fixed; /* Hacer que el footer se quede fijo en el fondo */
+    bottom: 0; /* Asegurar que el footer esté en el fondo */
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar los elementos */
+    color: white; /* Color del texto en blanco */
+    transition: background-color 0.3s, color 0.3s; /* Transiciones suaves */
+}
+
+footer p {
+    margin: 1px 0; /* Reducir el margen del párrafo */
+    font-size: 12px; /* Reducir tamaño de la fuente del párrafo */
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 5px; /* Reducir espacio entre los iconos */
+}
+
+footer a {
+    color: white; /* Color del texto de los enlaces en blanco */
+    text-decoration: none;
+    font-size: 16px; /* Reducir tamaño de la fuente de los enlaces */
+}
+
+footer a:hover {
+    color: salmon; /* Color del texto de los enlaces en salmón al pasar el cursor */
 }
