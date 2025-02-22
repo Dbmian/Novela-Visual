@@ -43,16 +43,17 @@ h1 {
 }
 
 .boton {
+    display: block;
     padding: 15px 30px;
     border: 2px solid black;
     background-color: black; 
     color: white;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
     cursor: pointer;
     margin-bottom: 20px;
-    transition: background-color 0.3s, color 0.3s; 
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .boton:hover {
