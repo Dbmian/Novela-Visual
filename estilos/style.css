@@ -34,6 +34,8 @@ body, html {
     height: 100vh;
     text-align: center;
     color: white;
+    padding: 20px; /* Añadido */
+    box-sizing: border-box; /* Añadido */
 }
 
 h1 {
@@ -109,6 +111,7 @@ footer a:hover {
     margin-bottom: 20px;
     font-size: 1rem;
 }
+
 .cuadro-centro {
     position: absolute; 
     top: 50%; 
@@ -116,7 +119,15 @@ footer a:hover {
     transform: translate(-50%, -50%);
     text-align: center;
     border: 5px solid salmon;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    max-height: 80vh; /* Añadido */
+    overflow-y: auto; /* Añadido */
+    box-sizing: border-box; /* Añadido */
 }
+
 .cuadro-inicio {
     position: absolute; 
     top: 50%; 
@@ -124,6 +135,7 @@ footer a:hover {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
 .cuadro-inicio h1 {
     color: white;
 }
