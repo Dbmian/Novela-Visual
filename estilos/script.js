@@ -1,19 +1,8 @@
-const texto = `Hace justo un año del día en que un ladrón se introdujo por la ventana del dormitorio de tu tía Marinda a las dos de la mañana.
-—¡Salga inmediatamente de aquí! —le gritó ella, y eso fue justo lo que él hizo, llevándose también el collar de perlas de tu tía.
-Al día siguiente encontraste una botella de cerveza entre los arbustos ubicados junto a la casa de tu tía Marinda.
-Puesto que no era muy factible que ella la hubiera arrojado por la ventana, se la entregaste a la policía.
-La botella tenía las impresiones digitales del ladrón, la policía no tardó en identificarlo y en la actualidad se encuentra entre rejas.
-A partir de ese momento te granjeaste una auténtica reputación de detective.
-Conseguiste una lupa, un equipo para impresiones digitales y un grabador de casete y estás listo para tomar cualquier trabajo de investigación.
-Algunas de tus amistades también han decidido convertirse en detectives.
-Eso no te preocupa, porque no son más que un puñado de aficionados, excepto tal vez Jenny Mudge, la chiquilla de pelo crespo que vive en tu misma calle.
-Ella sí que es lista.
-De hecho, hay momentos en que piensas que tal vez sea más viva que tú.
-Ahora todo parece indicar que tienes entre manos tu primer gran caso.
-Harlowe Thrombey, presidente de la Compañía de Plásticos Thrombey, acaba de llamarte por teléfono para pedirte que vayas a su casa esta tarde a las cinco en punto.
-—Me han dicho que eres muy observador —dijo—.
-Y eso es precisamente lo que necesito en este momento.
-Creo que mi vida corre peligro.`;
+const texto = `Hace un año, un ladrón irrumpió en la casa de tu tía Marinda a través de la ventana de su dormitorio a las dos de la madrugada. Marinda lo confrontó y el ladrón escapó, llevándose su collar de perlas. Al día siguiente, encontraste una botella de cerveza cerca de la casa, la entregaste a la policía y resultó ser una pista clave: las huellas digitales del ladrón llevaron a su arresto. Desde entonces, te ganaste una reputación como detective, con equipo de investigación y todo.
+
+Harlowe Thrombey, presidente de la Compañía de Plásticos Thrombey, te llamó recientemente para pedirte ayuda porque cree que su vida está en peligro y necesita tu observación aguda.
+
+Ahora parece que tienes tu primer gran caso entre manos.`;
 
 let i = 0;
 const velocidad = 30; 
